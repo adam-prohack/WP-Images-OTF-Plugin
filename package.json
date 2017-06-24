@@ -1,0 +1,9 @@
+{
+  "name": "wp-images-otf-plugin",
+  "version": "1.0.0",
+  "author": "Adam Brzozowski",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
