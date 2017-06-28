@@ -1,5 +1,7 @@
 # WP Images OTF Plugin
 
+**[Link to wordpress plugin](https://wordpress.org/plugins/wp-images-otf/#description)**
+
 ## What does this plugin do?
 
 This plugin generate image thumbnails only when site need it, when someone call function with needed size, 
