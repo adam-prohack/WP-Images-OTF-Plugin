@@ -38,7 +38,7 @@
 
             if(!$this->is_image($attachment_mime_type)) return wp_get_attachment_url($image_id);
             else if($this->is_vector_image($attachment_mime_type)) return wp_get_attachment_url($image_id);
-            else if($this->size_name == "full") return wp_get_attachment_image_url($image_id);
+            else if($this->size_name == "full") return wp_get_attachment_image_url($image_id, "full");
             else if(!empty($attachment_metadata["sizes"][$this->size_name])){
                 return wp_get_attachment_image_url($image_id, $this->size_name);
             }
