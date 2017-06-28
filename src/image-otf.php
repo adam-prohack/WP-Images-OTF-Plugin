@@ -19,7 +19,7 @@
             $image_editor->set_quality($this->quality);
             
             $output_path = $image_editor->generate_filename(null, null, "jpg");
-            $output_filename = substr($output_path, strrpos($output_path, DIRECTORY_SEPARATOR) + 1);
+            $output_filename = basename($output_path);
             
             $image_editor->save($output_path, $this->mime_type);
                 
